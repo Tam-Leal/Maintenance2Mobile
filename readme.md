@@ -26,12 +26,12 @@ Installation
 
 This app was built using Google Colab.
 
-###First Step
+### First Step
 In a new notebook, load all the files and folders that will be used in the project as in the scheme below : 
 
 ![alt-text](assets/google_colab_files.PNG "optional-title")  
 
-###Second Step
+### Second Step
 After joining all the files, run the scripts below one by one
 
 ````commandline
@@ -81,7 +81,7 @@ After joining all the files, run the scripts below one by one
 ````
 **Note**: after running *!buildozer init*, make sure the *buildozer.spec* file appears. If not, click the update files button in the files panel.
 
-###Third Step
+### Third Step
 **Configuring buildozer.spec**
 
 * Double click on the *buildozer.spec* file. On the opposite side of the screen, the settings of this file for editing will appear.
