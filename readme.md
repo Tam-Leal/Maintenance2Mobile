@@ -172,13 +172,13 @@ Edit the rules to:
       "admin":{
         	// Allow only authenticated admin access to data
         	// set the email from de admin user'
-        ".read":"auth != null && auth.token.email == 'admin@mycompany.com' ",
-        ".write":"auth != null && auth.token.email == 'admin@mycompany.com' "
+        ".read":"auth != null && auth.token.email == 'name@mycompany.com' ",
+        ".write":"auth != null && auth.token.email == 'name@mycompany.com' "
         }
     }        
 }
 ````
-**Note: To configure the app admin, change the ```auth.token.email == 'admin@mycompany.com'``` from read and write to the email that will be the admin created in Authentication.****
+**Note: To configure the app admin, change the ```auth.token.email == 'name@mycompany.com'``` from read and write to the email that will be the admin created in Authentication.****
 
 For more information about firebase rules, see: [https://firebase.google.com/docs/database/security](https://firebase.google.com/docs/database/security "optional-title")
 
